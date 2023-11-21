@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>LeetCode Solution Template.cs</DefaultName>
+    <Name>LeetCode Solution Template</Name>
+    <Description>Static class for solution and test class with example to quickly scaffold LeetCode problems</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Template.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
